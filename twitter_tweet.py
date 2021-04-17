@@ -24,7 +24,7 @@ class TweetContent:
         a = time_remaining.TimeOfTimezone(self.continent).time_of_different_zone()
         if a.days == 6 or a.days == 5:
             api.update_status(f'Hurray..! you made it {self.continent} enjoy the weekend!\n'
-                              f'next weekend after {a}\n\n'
+                              f'next weekend in {a}\n\n'
                               f'#programmer #programming #coding #developer #coder #programmerslife '
                               f'#softwareengineer #development #engineering #hacker #cybersecurity #programmerlife')
 
