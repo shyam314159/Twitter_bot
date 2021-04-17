@@ -1,6 +1,5 @@
 import datetime
 import pytz
-from time import sleep
 
 
 class TimeOfTimezone:
